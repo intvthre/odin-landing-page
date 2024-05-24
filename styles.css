@@ -4,6 +4,16 @@
     background-color: #1F2937
 }
 
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-link {
+    font: 18px;
+    color: #E5E7EB;
+}
+
 .one {
     background-color: #1F2937
 }
@@ -24,7 +34,10 @@
 }
 
 .three {
-
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-family: light italic;
+    color: #1F2937;
 }
 
 .four {
@@ -32,6 +45,7 @@
 }
 
 .footer {
+    background-color: #1F2937
 
 }
 

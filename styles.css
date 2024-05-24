@@ -71,13 +71,21 @@
         color: #F9FAF8;
     }
 
-.two {
-    padding: 100px 300px;
-}
-
 .two-flex {
+        display: flex;
+        padding: 30px 300px;
+        flex-direction: column;
+    }
+
+.two {
     display: flex;
     flex-direction: column;
+}
+
+.two-images {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 300px;
 }
 
 .two-info {
@@ -88,17 +96,22 @@
     text-align: center;
 }
 
+.two-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .two-image {
     border: 5px solid #3882F6;
     width: 110px;
     height: 110px;
     padding: 20px;
-
 }
 
-.two-subtext {
-    display: flex;
-    flex-direction: row;
+.two-text {
+    text-align: center;
+    margin: 10px 75px;
 }
 
 .three {
@@ -115,28 +128,39 @@
     font-style: normal;
 }
 
+.four-flex {
+    display:flex;
+    padding: 30px 300px;
+}
 
 .four {
     display: flex;
+    margin: 30px 30px;
+    padding: 25px 110px;
+    background-color: #3882F6;
+    flex: 1;
+    justify-content: space-between;
 }
 
-    .four-flex {
-        display:flex;
-        padding: 30px 300px;
-    }
-
-    .four-box {
-        display: flex;
-
-    }
-
     .four-text {
-        flex: 1;
+    
     }
 
-    .four four-text {
-        flex: 1;
-        flex-direction: row;
+    .four-text-one {
+    font-size: 20px;
+    font-weight: bold;
+    color:#F9FAF8;
+    margin-bottom: -15px;
+    }
+
+    .four-text-two {
+    font-size: 16px;
+    color:#F9FAF8;
+    }
+
+    .four .sign-up {
+    border: 2px solid #F9FAF8;
+    align-self: center;
     }
 
 .footer {

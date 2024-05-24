@@ -1,51 +1,85 @@
 /* styles.css */
 
 .header {
-    background-color: #1F2937
+    background-color: #1F2937;
+    display: flex;
+    flex:1;
+    padding: 30px 300px;
 }
 
-.header-logo {
+    .header-logo {
     font-size: 24px;
     color: #F9FAF8;
 }
 
-.header-link {
+    .header-link {
     font: 18px;
     color: #E5E7EB;
 }
 
+.one-flex {
+    display: flex;
+    flex: 1;
+}
+
 .one {
-    background-color: #1F2937
+    background-color: #1F2937;
+    padding: 100px 300px;
+    display: flex;
 }
 
     .main-text {
         font-size: 48px;
         font-weight: bold;
-        color: #F9FAF8
+        color: #F9FAF8;
     }
 
     .secondary-text {
         font-size: 18px;
-        color: #E5E7EB
+        color: #E5E7EB;
     }
     
-.two {
+    .one-image {
+        
+    }
 
+.two {
+    padding: 100px 300px;
 }
 
 .three {
+    color: ;
     background-color: #E5E7EB;
     font-size: 36px;
-    font-family: light italic;
+    font-style: italic;
     color: #1F2937;
+    padding: 100px 300px;
 }
+
+.quote-author {
+    font-weight: bold;
+    text-align: end;
+    font-style: normal;
+}
+
 
 .four {
 
 }
 
 .footer {
-    background-color: #1F2937
+    color:#F9FAF8;
+    background-color: #1F2937;
 
 }
 
+.sign-up {
+    text-align: center;
+    font-weight: bold;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    height: 20px;
+    width: 100px;
+    padding: 10px 5px;
+    margin: 5px;
+}

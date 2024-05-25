@@ -1,5 +1,12 @@
 /* styles.css */
 
+html, body {
+    margin: 0;
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -55,7 +62,7 @@
 }
 
     .one-text {
-        flex: 0 0 0;
+
     }
 
     .main-text {

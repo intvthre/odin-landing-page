@@ -204,8 +204,13 @@
 
     .four .sign-up {
     border: 2px solid #F9FAF8;
-    padding: 8px 40px;
+    padding: 8px 25px;
     align-self: center;
+    display: flex;
+    }
+    
+    .button-text {
+    width: 70px;
     }
 
 .footer {

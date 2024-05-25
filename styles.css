@@ -1,27 +1,37 @@
 /* styles.css */
 
-.header-flex {
+.flex-container {
     display: flex;
-    width: 1300px;
+    flex-direction: column;
+}
+
+.header-flex {
+    width: 1000px;
     padding: 30px 300px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header {
     background-color: #1F2937;
     display: flex;
-    flex:1;
+    flex: 1;
+    justify-content: center;
 }
 
     .header-logo {
     font-size: 24px;
+    font-weight: bolder;
     color: #F9FAF8;
-    flex: 1;
+    flex: 0 0 0;
+    width: 200px;
 }
 
     .header-div {
         display: flex;
         padding: 10px;
-        padding-right: 0px;
+        padding-right: 10px;
+        justify-content: flex-end;
 }
 
     .header-link {
@@ -32,7 +42,6 @@
 }
 
 
-
 .one-flex {
     display: flex;
 }
@@ -41,28 +50,35 @@
     background-color: #1F2937;
     padding: 100px 300px;
     display: flex;
+    flex: 1;
+    justify-content: center;
 }
 
     .one-text {
-     
+        flex: 0 0 0;
     }
 
     .main-text {
         font-size: 48px;
-        font-weight: bold;
+        font-weight: bolder;
         color: #F9FAF8;
+        width: 450px;
+        margin-bottom: -20px;
     }
 
     .secondary-text {
         font-size: 18px;
         color: #E5E7EB;
+        width: 500px;
+
     }
     
     .one-image {
         background-color: gray;
-        width: 800px;
-        display: flex;
+        width: 500px;
+        text-align: center;
         align-items: center;
+        display: flex;
     }
 
     .one-image p {
@@ -86,20 +102,25 @@
     display: flex;
     flex-direction: row;
     padding: 30px 300px;
+    justify-content: center;
 }
 
 .two-info {
-    flex: 1;
+    flex: 0 0 0;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
     text-align: center;
+    
 }
 
 .two-row {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 200px;
+    justify-content: center;
+    flex: 0 0 0;
 }
 
 .two-image {
@@ -107,11 +128,17 @@
     width: 110px;
     height: 110px;
     padding: 20px;
+    border-radius: 10px;
 }
 
 .two-text {
     text-align: center;
     margin: 10px 75px;
+    width: 170px;
+}
+
+.three-flex {
+    display: flex;
 }
 
 .three {
@@ -120,17 +147,37 @@
     font-style: italic;
     color: #1F2937;
     padding: 100px 300px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.three-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.three-text {
+    width: 950px;
+    
 }
 
 .quote-author {
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: bolder;
     text-align: end;
     font-style: normal;
+    margin-left: 650px;
+    margin-top: -30px;
 }
 
 .four-flex {
     display:flex;
     padding: 30px 300px;
+    justify-content: center;
 }
 
 .four {
@@ -138,13 +185,10 @@
     margin: 30px 30px;
     padding: 25px 110px;
     background-color: #3882F6;
-    flex: 1;
     justify-content: space-between;
+    border-radius: 10px;
+    width: 950px;
 }
-
-    .four-text {
-    
-    }
 
     .four-text-one {
     font-size: 20px;
@@ -160,6 +204,7 @@
 
     .four .sign-up {
     border: 2px solid #F9FAF8;
+    padding: 8px 40px;
     align-self: center;
     }
 
@@ -168,7 +213,6 @@
     background-color: #1F2937;
     padding: 30px 300px;
     text-align: center;
-
 }
 
 .sign-up {
@@ -177,7 +221,9 @@
     color: #F9FAF8;
     background-color: #3882F6;
     height: 20px;
-    width: 100px;
+    width: 120px;
     padding: 10px 5px;
     margin: 5px;
+    border-radius: 10px;
+    flex: 0 0 0;
 }
